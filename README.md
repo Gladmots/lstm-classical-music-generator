@@ -23,16 +23,14 @@ python3 lstm.py
 
 The network will use every MIDI file in `./songs` to train. Ensure each MIDI file contains only a single instrument for optimal training.
 
-**NOTE**: You can stop the process at any point in time and the weights from the latest completed epoch will be available for text generation purposes.
-
 ## Generating music
 
-Once trained, generate music using **predict.py**.
+Once trained, generate music using **generate.py**.
 
 E.g.
 
 ```
-python generate.py
+python3 generate.py
 ```
 
  ##  Play sound using Tinidity
