@@ -33,7 +33,7 @@ E.g.
 python3 generate.py
 ```
 
- ##  Play sound using Tinidity
+ ##  Play sound using Timidity
 
 ```
  sudo apt-get install timidity
