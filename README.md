@@ -6,6 +6,7 @@ This project allows you to train a neural network for generating MIDI music file
 
 * Python 
 * Installing the following packages using pip:
+	* h5py
 	* Pygane	 
 	* Keras
 	* Tensorflow
@@ -58,7 +59,7 @@ Notes cut: 0
 Notes lost totally: 0
 
 
- ##  Play sound using Pygame
+ ##  Alternative: Play sound using Pygame
 
 ```
  python3 play_midi.py
